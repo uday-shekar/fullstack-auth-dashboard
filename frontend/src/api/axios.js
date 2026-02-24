@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://task-bar-dkq7.onrender.com/api",
+  baseURL: "https://task-dashboard-65b1.onrender.com/api",
   timeout: 10000, // ⏱ prevent hanging requests
   headers: {
     "Content-Type": "application/json",
